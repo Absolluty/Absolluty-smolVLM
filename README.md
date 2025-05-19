@@ -13,3 +13,18 @@ Podés ubicar `llama.cpp` en la misma carpeta raíz que este proyecto, o ajustar
 /
 ├── Absolluty-smolVLM/
 ├── llama.cpp/
+
+
+
+## 🚀 Cómo usar este proyecto
+
+Este proyecto permite analizar una imagen con una persona y extraer una descripción estructurada de sus atributos visuales (ropa, edad, género, accesorios, etc.) utilizando el modelo visual `smolVLM`.
+
+### 📌 Pasos para ejecutar
+
+1. **Iniciar el servidor de llama.cpp**
+
+   Asegurate de tener compilado `llama.cpp` y ejecutá el servidor:
+
+   ```bash
+   ./llama-server -hf ggml-org/SmolVLM-500M-Instruct-GGUF
